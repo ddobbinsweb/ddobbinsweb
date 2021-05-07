@@ -32,6 +32,8 @@ jobs:
       - name: Build website
         run: |
           npm install
+          git config --global user.email "ddobbinsweb@gmail.com"
+          git config --global user.name "David Dobbins"
           npm run deploy
   # You may pin to the exact commit or the version.
   # uses: JamesIves/github-pages-deploy-action@164583b9e44b4fc5910e78feb607ea7c98d3c7b9
