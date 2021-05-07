@@ -32,9 +32,7 @@ jobs:
       - name: Build website
         run: |
           npm install
-          git config --global user.email "ddobbinsweb@gmail.com"
-          git config --global user.name "David Dobbins"
-          npm run deploy
+          npm run build
   # You may pin to the exact commit or the version.
   # uses: JamesIves/github-pages-deploy-action@164583b9e44b4fc5910e78feb607ea7c98d3c7b9
       - name: Deploy to GitHub Pages
@@ -52,7 +50,7 @@ jobs:
               # This is the branch you wish to deploy to, for example gh-pages or docs.
           branch: gh-pages
               # The folder in your repository that you want to deploy. If your build script compiles into a directory named build you would put it here. Folder paths cannot have a leading / or ./. If you wish to deploy the root directory you can place a . here.
-          folder: .
+          folder: build
               # If you would like to push the contents of the deployment folder into a specific directory on the deployment branch you can specify it here.
               # target-folder: # optional
               # If you need to customize the commit message for an integration you can do so.
