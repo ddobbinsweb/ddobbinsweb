@@ -14,6 +14,7 @@ import resumeDataJson from "./resumeData.json";
 
 export default function App() {
   return (
+  
     <div className="App">
       <Header data={resumeDataJson.main} />
       <About data={resumeDataJson.main} />

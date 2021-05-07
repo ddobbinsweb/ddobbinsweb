@@ -3,10 +3,10 @@
     "name": "David Dobbins",
     "occupation": "Software Engineer",
     "description": " ",
-    "image": "profilepic.jpg",
+    "image": "images/profilepic.jpg",
     "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
+    "email": "ddobbinsweb@gmail.com",
     "phone": "555-555-5555",
     "address": {
       "street": "(Your Street)",
@@ -15,7 +15,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "resumedownload": "/DavidDobbinsResume.pdf",
     "social": [
       {
         "name": "linkedin",
