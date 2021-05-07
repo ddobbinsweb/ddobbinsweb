@@ -1,29 +1,27 @@
-import React, { Component } from 'react';
-import Header from './components/header/header';
-import Hero from './components/hero/hero';
-import About from './components/about/about';
-import Resume from './components/resume/resume';
-import Portfolio from './components/portfolio/portfolio';
-import Testimonials from  './components/testimonials/testimonials';
-import ContactUs from './components/contactus/contactus';
-import Footer from './components/footer/footer';
+import React from "react";
+// css
+import "./App.css";
+// components
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import About from "./Components/About";
+import Resume from "./Components/Resume";
+import Contact from "./Components/Contact";
+import Testimonials from "./Components/Testimonials";
+import Portfolio from "./Components/Portfolio";
+// data
+import resumeDataJson from "./resumeData.json";
 
-import resumeData from './resumeData';
-
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Header  />
-        <Hero resumeData={resumeData} />
-        <About />
-        <Resume />
-        <Portfolio />
-        <Testimonials />
-        <ContactUs />
-        <Footer />
-      </div>
-    );
-  }
+export default function App() {
+  return (
+    <div className="App">
+      <Header data={resumeDataJson.main} />
+      <About data={resumeDataJson.main} />
+      <Resume data={resumeDataJson.resume} />
+      <Portfolio data={resumeDataJson.portfolio} />
+      <Testimonials data={resumeDataJson.testimonials} />
+      <Contact data={resumeDataJson.main} />
+      <Footer data={resumeDataJson.main} />
+    </div>
+  );
 }
-export default App;
