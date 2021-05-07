@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function About(props)  {
-const {name,image,bio,address,email,resumeDownload} = props.data;
+const {name,image,bio,address,email,resumedownload} = props.data;
   
     return (
       <section id="about">
@@ -30,7 +30,7 @@ const {name,image,bio,address,email,resumeDownload} = props.data;
               </div>
               <div className="columns download">
                 <p>
-                  <a href={resumeDownload} className="button" download>
+                  <a href={resumedownload} className="button">
                     <i className="fa fa-download"></i>Download Resume
                   </a>
                 </p>
