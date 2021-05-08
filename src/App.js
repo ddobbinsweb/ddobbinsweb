@@ -13,7 +13,7 @@ import Portfolio from "./components/Portfolio";
 import resumeData from "./resumeData.json";
 
 const App = () => {
-  const { main, resume, portfolio, testimonials } = resumeData;
+  const { main, resume, portfolio } = resumeData;
   return (
     <div className="App">
       <Header
@@ -36,9 +36,10 @@ const App = () => {
         education={resume.education}
         work={resume.work}
         skills={resume.skills}
+        certifications={resume.certifications}
       />
       <Portfolio portfolio={portfolio.projects} />
-      <Testimonials testimonies={testimonials.testimonials} />
+      {/* <Testimonials testimonies={testimonials.testimonials} /> */}
       <Contact email={main.email} />
       <Footer name={main.name} social={main.social} />
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Resume = ({ skillmessage, education, work, skills }) => {
+const Resume = ({ skillmessage, education, work, skills,certifications }) => {
   const educationHistory = education.map((ed) => {
     return (
       <div key={ed.school}>
@@ -32,6 +32,18 @@ const Resume = ({ skillmessage, education, work, skills }) => {
         <span style={{ width: skills.level }} className={className}></span>
         <em>{skills.name}</em>
       </li>
+    );
+  });
+  const certificationList = certifications.map((certs) => {
+    return (
+      <div key={certs.name}>
+      <h3>{certs.name}</h3>
+      <p className="info">
+        {work.issuer}
+        <span>expires:</span> <em className="date">{certs.expires}</em>
+      </p>
+      <a href={certs.link}>Verify</a>
+    </div>
     );
   });
 
@@ -76,6 +88,16 @@ const Resume = ({ skillmessage, education, work, skills }) => {
           </div>
         </div>
       </div>
+      <div className="row certs">
+        <div className="three columns header-col">
+          <h1>
+            <span>Certifications</span>
+          </h1>
+        </div>
+
+        <div className="nine columns main-col">{certificationList}</div>
+      </div>
+
     </section>
   );
 };

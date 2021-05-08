@@ -2,17 +2,15 @@
   "main": {
     "name": "David Dobbins",
     "occupation": "Software Engineer",
-    "description": " ",
+    "description": "I have over 6 years of experience as Software Engineer. Developing in the Full stack of applications",
     "image": "images/profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio": "Instead of having me work on a coding challenge, I say tell me about a bug you have a let me find it. and I will find it! Debuging and troubleshooting are my bread and butter.When I am not working I enjoy spending time with my family outdoors, hiking and riding bikes. ",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "ddobbinsweb@gmail.com",
     "phone": "555-555-5555",
     "address": {
-      "street": "(Your Street)",
       "city": "Raleigh",
-      "state": "NC",
-      "zip": "(Your Zip/Postal Code)"
+      "state": "NC"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload": "/DavidDobbinsResume.pdf",
@@ -30,19 +28,19 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "Along with my hard skills, I have soft skills in communicating clear with teammates and clients. I am easy to work with and adapt quicking to changes.",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "ITT Technical Institute-Henderson",
+        "degree": "Associate's degree, Software Development",
+        "graduated": "Spring 2011",
+        "description": "Graduated with Highest Honors, Learned essential skills for Software Development."
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Page High School",
+        "degree": "High School Diploma",
+        "graduated": "Spring 2007",
+        "description": "Graduated with a General Diploma one year early."
       }
     ],
     "work": [
@@ -56,7 +54,13 @@
         "company": "Enchoice, Inc.",
         "title": "Software Engineer",
         "years": "April 2017 - February 2020",
-        "description": "Web application using .Net MVC, Js, Sql ."
+        "description": "Web application using C#.Net MVC, JS, Sql. Creating Development Tools, building and maintaining Windows Services. and Creating custom workflow actions for clients."
+      },
+      {
+        "company": "Red Rock Administrative Services",
+        "title": "Software Developer",
+        "years": "March 2014 - May 2017",
+        "description": "Multiple DotNetNuke Websites in VB.Net, JS, and SQL. Desktop applications using VB.Net, and WPF. SQL. as well as General IT work"
       }
     ],
     "skills": [
@@ -83,10 +87,18 @@
       {
         "name": "HTML5",
         "level": "90%"
-      }, 
+      },
       {
         "name": "SQL",
         "level": "55%"
+      }
+    ],
+    "certifications":[
+      {
+        "name":"Microsoft Certified: Azure Developer Associate",
+        "issuer":"Microsoft",
+        "link":"https://www.youracclaim.com/badges/364b5c6a-d4cf-491f-a439-aef092e150a6/linked_in_profile",
+        "expires":"May, 2022"
       }
     ]
   },
