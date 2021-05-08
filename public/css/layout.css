@@ -148,7 +148,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 ul#nav {
    min-height: 48px;
    width: auto;
-
+   background: #2B2B2B;
    /* center align the menu */
    text-align: center;
 }
@@ -800,9 +800,9 @@ call-to-action .button {
    color: #636363;
 }
 #contact .section-head { margin-bottom: 42px; }
-
+/* 
 #contact a, #contact a:visited  { color: #11ABB0; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#contact a:hover, #contact a:focus { color: #fff; } */
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -811,8 +811,8 @@ call-to-action .button {
    color: #EBEEEE;
    margin-bottom: 6px;
 }
-#contact h1 span { display: none; }
-#contact h1:before {
+/* #contact h1 span { display: none; }
+#contact a:before {
    font-family: 'FontAwesome';
    content: "\f0e0";
 	padding-right: 10px;
@@ -821,7 +821,7 @@ call-to-action .button {
    text-align: left;
    float: left;
    color: #ebeeee;
-}
+} */
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
@@ -832,7 +832,14 @@ call-to-action .button {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
 }
-#contact .header-col { padding-top: 6px; }
+#contact .center {  
+   padding: 70px 0;
+  text-align: center;
+  margin:auto;
+}
+#contact .button{
+   margin-top:15px;
+}
 
 
 /* contact form */

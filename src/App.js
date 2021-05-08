@@ -10,19 +10,38 @@ import Contact from "./components/Contact";
 import Testimonials from "./components/Testimonials";
 import Portfolio from "./components/Portfolio";
 // data
-import resumeDataJson from "./resumeData.json";
+import resumeData from "./resumeData.json";
 
-export default function App() {
+const App = () => {
+  const { main, resume, portfolio, testimonials } = resumeData;
   return (
-  
     <div className="App">
-      <Header data={resumeDataJson.main} />
-      <About data={resumeDataJson.main} />
-      <Resume data={resumeDataJson.resume} />
-      <Portfolio data={resumeDataJson.portfolio} />
-      <Testimonials data={resumeDataJson.testimonials} />
-      <Contact data={resumeDataJson.main} />
-      <Footer data={resumeDataJson.main} />
+      <Header
+        name={main.name}
+        occupation={main.occupation}
+        description={main.description}
+        city={main.address.city}
+        social={main.social}
+      />
+      <About
+        name={main.name}
+        image={main.image}
+        bio={main.bio}
+        address={main.address}
+        email={main.email}
+        resumedownload={main.resumedownload}
+      />
+      <Resume
+        skillmessage={resume.skillmessage}
+        education={resume.education}
+        work={resume.work}
+        skills={resume.skills}
+      />
+      <Portfolio portfolio={portfolio.projects} />
+      <Testimonials testimonies={testimonials.testimonials} />
+      <Contact email={main.email} />
+      <Footer name={main.name} social={main.social} />
     </div>
   );
-}
+};
+export default App;

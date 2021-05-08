@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function About(props)  {
-const {name,image,bio,address,email,resumedownload} = props.data;
-  
+ const About = ( ({name,image,bio,address,email,resumedownload}) =>  {
+//const {name,image,bio,address,email,resumedownload} = props;
+ // const [city,state] = this.address;
     return (
       <section id="about">
         <div className="row">
@@ -40,5 +40,6 @@ const {name,image,bio,address,email,resumedownload} = props.data;
         </div>
       </section>
     );
-}
+});
 
+export default About;
