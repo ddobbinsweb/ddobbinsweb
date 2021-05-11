@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bab0b925.chunk.css",
-    "main.js": "/portfolio/static/js/main.75e1a375.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.75e1a375.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.04beee08.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.04beee08.js.map",
-    "static/js/2.e3a8cc64.chunk.js": "/portfolio/static/js/2.e3a8cc64.chunk.js",
-    "static/js/2.e3a8cc64.chunk.js.map": "/portfolio/static/js/2.e3a8cc64.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/main.bab0b925.chunk.css.map": "/portfolio/static/css/main.bab0b925.chunk.css.map",
-    "static/js/2.e3a8cc64.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e3a8cc64.chunk.js.LICENSE.txt"
+    "main.css": "/ddobbinsweb/static/css/main.bab0b925.chunk.css",
+    "main.js": "/ddobbinsweb/static/js/main.9d8749c5.chunk.js",
+    "main.js.map": "/ddobbinsweb/static/js/main.9d8749c5.chunk.js.map",
+    "runtime-main.js": "/ddobbinsweb/static/js/runtime-main.dba15b4a.js",
+    "runtime-main.js.map": "/ddobbinsweb/static/js/runtime-main.dba15b4a.js.map",
+    "static/js/2.e3a8cc64.chunk.js": "/ddobbinsweb/static/js/2.e3a8cc64.chunk.js",
+    "static/js/2.e3a8cc64.chunk.js.map": "/ddobbinsweb/static/js/2.e3a8cc64.chunk.js.map",
+    "index.html": "/ddobbinsweb/index.html",
+    "static/css/main.bab0b925.chunk.css.map": "/ddobbinsweb/static/css/main.bab0b925.chunk.css.map",
+    "static/js/2.e3a8cc64.chunk.js.LICENSE.txt": "/ddobbinsweb/static/js/2.e3a8cc64.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.04beee08.js",
+    "static/js/runtime-main.dba15b4a.js",
     "static/js/2.e3a8cc64.chunk.js",
     "static/css/main.bab0b925.chunk.css",
-    "static/js/main.75e1a375.chunk.js"
+    "static/js/main.9d8749c5.chunk.js"
   ]
 }
