@@ -2,9 +2,9 @@
   "main": {
     "name": "David Dobbins",
     "occupation": "Software Engineer",
-    "description": "I have over 6 years of experience as Software Engineer. Developing in the Full stack of applications",
+    "description": "I have over six years of experience as Software Engineer. Developing in the Full stack of applications",
     "image": "images/profilepic.jpg",
-    "bio": "Instead of having me work on a coding challenge, I say tell me about a bug you have a let me find it. and I will find it! Debuging and troubleshooting are my bread and butter.When I am not working I enjoy spending time with my family outdoors, hiking and riding bikes. ",
+    "bio": "Instead of having me work on a coding challenge, I would rather you give me about a bug you have a let me find it and I will find it! Debugging and troubleshooting are my bread and butter. When I am not working I enjoy spending time with my family, exploring outdoors, hiking and riding bikes.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "ddobbinsweb@gmail.com",
     "phone": "555-555-5555",
@@ -28,7 +28,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "Along with my hard skills, I have soft skills in communicating clear with teammates and clients. I am easy to work with and adapt quicking to changes.",
+    "skillmessage": "Along with my hard skills, I have soft skills in communicating clearly with teammates and clients. I am easy to work with and I adapt quickly to changes.",
     "education": [
       {
         "school": "ITT Technical Institute-Henderson",
@@ -54,13 +54,13 @@
         "company": "Enchoice, Inc.",
         "title": "Software Engineer",
         "years": "April 2017 - February 2020",
-        "description": "Web application using C#.Net MVC, JS, Sql. Creating Development Tools, building and maintaining Windows Services. and Creating custom workflow actions for clients."
+        "description": "Web application using C#.Net MVC, JS, SQL. Creating Development Tools, building and maintaining Windows Services. Creating custom workflow actions for clients."
       },
       {
         "company": "Red Rock Administrative Services",
         "title": "Software Developer",
         "years": "March 2014 - May 2017",
-        "description": "Multiple DotNetNuke Websites in VB.Net, JS, and SQL. Desktop applications using VB.Net, and WPF. SQL. as well as General IT work"
+        "description": "Multiple DotNetNuke Websites in VB.Net, JS, and SQL. Desktop applications using VB.Net, and WPF. SQL. As well as General IT work"
       }
     ],
     "skills": [
