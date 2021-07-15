@@ -45,9 +45,15 @@
     ],
     "work": [
       {
+        "company": "PING",
+        "title": "Senior Software Engineer",
+        "years": "July 2021 - Present",
+        "description": "Creating applications to create digital transformation."
+      },
+      {
         "company": "Nerdery",
         "title": "Software Engineer (.Net) ",
-        "years": "March 2020 - Present",
+        "years": "March 2020 - June 2021",
         "description": "Working with Client to create B2B app in .Net, Kentico, React(typescript),Azure."
       },
       {
