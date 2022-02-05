@@ -12,7 +12,6 @@
       "city": "Raleigh",
       "state": "NC"
     },
-    "website": "http://www.timbakerdev.com",
     "resumedownload": "https://github.com/ddobbinsweb/portfolio/raw/gh-pages/DavidDobbinsResume.pdf",
     "social": [
       {
@@ -45,9 +44,15 @@
     ],
     "work": [
       {
+        "company": "RevUnit",
+        "title": "Senior  Engineer",
+        "years": "February 2022 - Present",
+        "description": "Creating Client experience driving software"
+      },
+      {
         "company": "PING",
         "title": "Senior Software Engineer",
-        "years": "July 2021 - Present",
+        "years": "July 2021 - February 2022",
         "description": "Creating applications to create digital transformation."
       },
       {
@@ -79,8 +84,20 @@
         "level": "60%"
       },
       {
+        "name": "DevOps",
+        "level": "65%"
+      },
+      {
+        "name": "Azure",
+        "level": "50%"
+      },
+      {
         "name": "ReactJs",
-        "level": "40%"
+        "level": "50%"
+      },
+      {
+        "name": "Typescript",
+        "level": "50%"
       },
       {
         "name": "Git",
