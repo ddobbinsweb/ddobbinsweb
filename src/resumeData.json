@@ -118,6 +118,12 @@
     ],
     "certifications":[
       {
+        "name":"Google Cloud Professional Cloud Developer",
+        "issuer":"Google",
+        "link":"https://www.credential.net/11bee7ed-1143-48f0-a63a-a4393071e473?key=728ad31a2ae9f1048f90410386036eba63c017ddf8cc782959fb20d49cefc9f0",
+        "expires":"February 2024 "
+      },
+      {
         "name":"Microsoft Certified: Azure Developer Associate",
         "issuer":"Microsoft",
         "link":"https://www.youracclaim.com/badges/364b5c6a-d4cf-491f-a439-aef092e150a6/linked_in_profile",
