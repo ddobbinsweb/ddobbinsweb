@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "David Dobbins",
-    "occupation": "Software Engineer",
-    "description": "I have over 8 years of experience as a Software Engineer. Developing in the Full-stack of applications, C#, React, DevOps",
+    "occupation": "Senior Software Engineer",
+    "description": "I have over 8 years of experience as a Software Engineer. Primarily focused in C# but also capable in React , Cloud and DevOps",
     "image": "images/profilepic.jpg",
-    "bio": "Instead of having me work on a coding challenge, I would rather you give me about a bug you have a let me find it and I will find it! Debugging and troubleshooting are my bread and butter. When I am not working I enjoy spending time with my family, exploring the outdoors, hiking, and riding bikes.",
+    "bio": "I am a hard working problem solver. I love learning and improving myself and my skills. I am the linchpin of every project I am a part of. I give 100% all of the time. When I am not working I enjoy spending time with my family, exploring the outdoors, hiking, and riding bikes.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "ddobbinsweb@gmail.com",
     "phone": "555-555-5555",
@@ -45,38 +45,43 @@
     "work": [
       {
         "company": "RevUnit",
-        "title": "Senior  Engineer",
+        "title": "Senior Engineer",
         "years": "February 2022 - Present",
-        "description": "Creating Client experience driving software"
+        "tech": "C#, SQL, Redis, Clean Architecture, Azure , Docker",
+        "description": "Lead a team of 6 Backend Engineers on a application rewrite project. Lead project application Expert. Implemented Design patterns and best practices. Setup and Manage Azure Infrastructure. Configured CI/CD Azure DevOps build and release pipelines. Collaborate with Frontend and Design "
       },
       {
         "company": "PING",
         "title": "Senior Software Engineer",
         "years": "July 2021 - February 2022",
-        "description": "Creating applications to create digital transformation."
+        "tech": "C#, React, SQL, MongoDB, Kentico, Azure, Docker, Kubernetes",
+        "description": "Create a kentico B2B application consisting of a web api, react front end , and microservice api. Small Collaborative team. Supported Production application as well as adding new feature sets."
       },
       {
         "company": "Nerdery",
         "title": "Software Engineer (.Net) ",
         "years": "March 2020 - June 2021",
+        "tech": "C#, React, SQL, MongoDB, Kentico, Azure, Docker, Kubernetes",
         "description": "Working with Client to create B2B app in .Net, Kentico, React(typescript),Azure."
       },
       {
         "company": "Enchoice, Inc.",
         "title": "Software Engineer",
         "years": "April 2017 - February 2020",
-        "description": "Web application using C#.Net MVC, JS, SQL. Creating Development Tools, building and maintaining Windows Services. Creating custom workflow actions for clients."
+        "tech": "Javascript, Html5, Css3, Jquery, C#",
+        "description": "Creating Development Tools, building and maintaining Windows Services. Creating custom workflow actions for clients."
       },
       {
         "company": "Red Rock Administrative Services",
         "title": "Software Developer",
         "years": "March 2014 - May 2017",
+        "tech": "Vb.net, JQuery, Javascript, Sql",
         "description": "Multiple DotNetNuke Websites in VB.Net, JS, and SQL. Desktop applications using VB.Net, and WPF. SQL. As well as General IT work"
       }
     ],
     "skills": [
       {
-        "name": "C# .Net",
+        "name": "C#",
         "level": "80%"
       },
       {
@@ -89,7 +94,7 @@
       },
       {
         "name": "Azure",
-        "level": "50%"
+        "level": "60%"
       },
       {
         "name": "ReactJs",
