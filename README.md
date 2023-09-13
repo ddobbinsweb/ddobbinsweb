@@ -4,7 +4,10 @@ I am currently a Senior Engineer at RevUnit.
 [My Portfolio](https://david-dobbins-portfolio.vercel.app/)
 
 
-[![David Dobbins's GitHub stats](https://github-readme-stats-ddobbinsweb.vercel.app/api?username=ddobbinsweb)](https://github.com/anuraghazra/github-readme-stats)
-<br/>
-<br/>
-[![Top Langs](https://github-readme-stats-ddobbinsweb.vercel.app/api/top-langs/?username=ddobbinsweb&hide_progress=true)](https://github.com/ddobbinsweb/github-readme-stats)
+<a href="https://github.com/ddobbinsweb/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats-ddobbinsweb.vercel.app/api?username=ddobbinsweb&show_icons=true&theme=radical" />
+</a>
+<a href="https://github.com/ddobbinsweb/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats-ddobbinsweb.vercel.app/api/top-langs/?username=ddobbinsweb&hide_progress=true&theme=radical" />
+</a>
+
